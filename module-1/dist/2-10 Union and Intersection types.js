@@ -1,11 +1,15 @@
 "use strict";
 {
-    var newDeveloper = "Good Developer";
+    var newDeveloper = "Expart Developer";
     var user_1 = {
         name: "oliullah",
         email: "mdolihasan@gmail.com",
         gender: "male",
         bloodGroup: "O+"
     };
-    // Intersection type 
+    var fullStackDeveloper = {
+        skills: ["node", "mongoDb", "react"],
+        designation1: "Front End Developer",
+        designation2: "Back End Developer"
+    };
 }
