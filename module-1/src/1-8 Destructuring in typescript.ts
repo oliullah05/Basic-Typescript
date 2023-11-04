@@ -32,6 +32,7 @@ const friendz = ["hasan","akash","maruf","rahat","sobikul","roni","abid"]
 // const [a,b,bestFriend,d]=friendz;
 // console.log(bestFriend);
 
+
 // to skip a , b ,d
 const [,,bestFriend,,...bakigula]=friendz;
 console.log(bakigula);

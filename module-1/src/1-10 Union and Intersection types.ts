@@ -24,7 +24,6 @@ const user :User ={
 }
 
 
-
 // Intersection type 
 
 type FrontEndDeveloper2 = {
