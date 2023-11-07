@@ -41,23 +41,22 @@ cat.makeMeaw()
 
 
 
-
 // smart way to handle funtion 
-const isDog =(animal:Animal)=>{
+const isDog =(animal:Animal):animal is Dog=>{
 return animal instanceof Dog;
 
 }
-const isCat =(animal:Animal)=>{
-return animal instanceof Dog;
+const isCat =(animal:Animal):animal is Cat=>{
+return animal instanceof Cat;
 
 }
 
 
 const getAnimal  =(animal:Animal)=>{
-if(isDog ){
+if(isDog(animal ) ){
     animal.makeBark()
 }
-else if (animal instanceof Cat){
+else if (isCat(animal)){
     animal.makeMeaw()
 }
 else{
